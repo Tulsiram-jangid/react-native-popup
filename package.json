@@ -1,0 +1,36 @@
+{
+  "name": "@tulsiramjangid/react-native-popup",
+  "version": "1.0.0",
+  "description": "react-native-popup is a lightweight and customizable popup/modal component for React Native applications. It provides a flexible context-based API to trigger informative alerts, confirmations, or action-driven popups globally from anywhere in your app.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish --access public",
+    "alpha": "npm version prerelease --preid=alpha"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.70.0",
+    "react-native-reanimated": "3.17.5"
+  },
+  "keywords": [
+    "react-native",
+    "Popup",
+    "Confirm dialog",
+    "Confirm Popup",
+    "toast",
+    "animated",
+    "context",
+    "react"
+  ],
+  "author": "Tulsiram Jangid",
+  "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "git+https://github.com/Tulsiram-jangid/react-native-snackbar.git"
+  }
+}
