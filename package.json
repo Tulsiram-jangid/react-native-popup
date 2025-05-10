@@ -1,6 +1,6 @@
 {
   "name": "@tulsiramjangid/react-native-popup",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.1-alpha.1",
   "description": "react-native-popup is a lightweight and customizable popup/modal component for React Native applications. It provides a flexible context-based API to trigger informative alerts, confirmations, or action-driven popups globally from anywhere in your app.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
