@@ -7,7 +7,7 @@
     "jsx": "react",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "strict": true
+    "strict": true,
   },
   "include": ["src"]
 }

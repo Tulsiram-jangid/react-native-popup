@@ -5,9 +5,9 @@ react-native-popup is a lightweight and customizable popup/modal component for R
 ## 🎥 Demo
 
 <p align="center">
-  <img src="https://github.com/Tulsiram-jangid/react-native-popup/blob/main/docs/ok.gif" height="400" width="200" alt="Snackbar Demo" />
-  <img src="https://github.com/Tulsiram-jangid/react-native-popup/blob/main/docs/ok_horizontal.gif" height="400" width="200" alt="Snackbar Demo" />
-  <img src="https://github.com/Tulsiram-jangid/react-native-popup/blob/main/docs/okcancelVertical.gif" height="400" width="200" alt="Snackbar Demo" />
+  <img src="https://github.com/Tulsiram-jangid/react-native-popup/blob/main/docs/ok.gif" height="400" width="200" alt="Popup Demo" />
+  <img src="https://github.com/Tulsiram-jangid/react-native-popup/blob/main/docs/ok_horizontal.gif" height="400" width="200" alt="Popup Demo" />
+  <img src="https://github.com/Tulsiram-jangid/react-native-popup/blob/main/docs/okcancelVertical.gif" height="400" width="200" alt="Popup Demo" />
 </p>
 
 ## 🚀 Features
@@ -39,6 +39,15 @@ Using **yarn**:
 ```bash
 yarn add @tulsiramjangid/react-native-popup
 ```
+
+Using **Peer Dependency (Required):**:
+
+This package uses react-native-reanimated, so be sure to install it as well:
+
+```bash
+yarn add react-native-reanimated
+```
+
 
 
 ## How to use this

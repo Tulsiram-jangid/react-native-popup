@@ -43,7 +43,7 @@ interface PopupTypes {
 }
 
 interface PopupProviderProps {
-  children: ReactNode;
+  children: ReactNode
 }
 
 interface PopupContextType {
@@ -83,7 +83,7 @@ export const PopupProvider: React.FC<PopupProviderProps> = ({ children }) => {
   }, []);
 
   const closePopup = useCallback(() => {
-    setData((prev) => ({
+    setData((prev: any) => ({
       ...prev,
       show: false,
     }));
@@ -167,7 +167,10 @@ const onCancel=useCallback(()=>{
 },[actionPress,onClose]);
 
 const renderFooter = useMemo(()=>{
-  if([PopupAction.OK,PopupAction.QUERY_WITH_OK].includes(action)){
+  if(
+    action === PopupAction.OK ||
+    action === PopupAction.QUERY_WITH_OK
+  ){
     return (
       <View>
         <Divider/>
