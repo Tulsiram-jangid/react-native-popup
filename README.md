@@ -5,9 +5,9 @@ react-native-popup is a lightweight and customizable popup/modal component for R
 ## 🎥 Demo
 
 <p align="center">
-  <img src="https://github.com/Tulsiram-jangid/react-native-snackbar/blob/main/docs/snackbar.gif" height="400" width="200" alt="Snackbar Demo" />
-  <img src="https://github.com/Tulsiram-jangid/react-native-snackbar/blob/main/docs/snackbar.gif" height="400" width="200" alt="Snackbar Demo" />
-  <img src="https://github.com/Tulsiram-jangid/react-native-snackbar/blob/main/docs/snackbar.gif" height="400" width="200" alt="Snackbar Demo" />
+  <img src="https://github.com/Tulsiram-jangid/react-native-popup/blob/main/docs/ok.gif" height="400" width="200" alt="Snackbar Demo" />
+  <img src="https://github.com/Tulsiram-jangid/react-native-popup/blob/main/docs/ok_horizontal.gif" height="400" width="200" alt="Snackbar Demo" />
+  <img src="https://github.com/Tulsiram-jangid/react-native-popup/blob/main/docs/okcancelVertical.gif" height="400" width="200" alt="Snackbar Demo" />
 </p>
 
 ## 🚀 Features
