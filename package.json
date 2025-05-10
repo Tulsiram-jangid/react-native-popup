@@ -1,6 +1,6 @@
 {
   "name": "@tulsiramjangid/react-native-popup",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "react-native-popup is a lightweight and customizable popup/modal component for React Native applications. It provides a flexible context-based API to trigger informative alerts, confirmations, or action-driven popups globally from anywhere in your app.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,11 +12,6 @@
   "devDependencies": {
     "typescript": "^5.8.3"
   },
-  "dependencies": {
-    "react": "^19.1.0",
-    "react-native": "^0.79.2",
-    "react-native-reanimated": "^3.17.5"
-  },
   "peerDependencies": {
     "react": ">=17.0.0",
     "react-native": ">=0.70.0",
@@ -24,9 +19,7 @@
   },
   "keywords": [
     "react-native",
-    "Popup",
-    "Confirm dialog",
-    "Confirm Popup",
+    "snackbar",
     "toast",
     "animated",
     "context",
